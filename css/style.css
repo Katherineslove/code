@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: black; }
+
+.pageContainer {
+  max-width: 100%;
+  margin: 0 auto; }
+
+h1 {
+  color: white; }
+
+h4 {
+  border: 2px solid black; }
+
+.button {
+  background-color: black;
+  color: black;
+  border-color: black; }
+
+#logo {
+  width: 730px;
+  height: 330px;
+  position: relative;
+  float: left;
+  left: 38px;
+  top: 50px; }
+
+#nav {
+  width: 1050px;
+  height: 100px;
+  position: relative;
+  float: right;
+  right: 30px;
+  top: 100px; }
+
+#nav a {
+  text-align: center;
+  width: 209.6px;
+  font-family: 'Oswald', sans-serif;
+  float: left;
+  color: black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  font-size: 45px;
+  background-color: white;
+  border-radius: 10px 10px 0px 0px;
+  border: 1px solid black; }
+
+#nav a.active {
+  background-color: #c8c8c8; }
+
+#menu {
+  width: 1046px;
+  height: 850px;
+  position: relative;
+  float: right;
+  right: 33px;
+  top: 100px;
+  background-color: yellow; }
+
+#drinks {
+  width: 730px;
+  height: 650px;
+  position: relative;
+  float: left;
+  left: 50px;
+  top: 70px;
+  background-color: green; }
+
+#drinksTitle {
+  width: 730px;
+  height: 100px;
+  position: absolute; }
+
+#drinksTitle a {
+  width: 365px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  float: left;
+  color: black;
+  padding: 14px 61px 16px;
+  text-decoration: none;
+  font-size: 45px;
+  background-color: white;
+  border-radius: 10px 10px 0px 0px;
+  border: 1px solid black; }
+
+#drinksTitle a.active {
+  background-color: #c8c8c8; }
+
+#tabs {
+  width: 730px;
+  height: 100px;
+  position: absolute;
+  background-color: red; }
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid white;
+  border-top: none; }
+
+.tab button {
+  border-radius: 10px 10px 0px 0px;
+  border: 1px solid black;
+  width: 365px;
+  background-color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px; }
+
+h3 {
+  text-align: center;
+  font-family: 'Oswald', sans-serif; }
+
+/*# sourceMappingURL=style.css.map */
