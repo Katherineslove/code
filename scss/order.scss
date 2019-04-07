@@ -149,6 +149,20 @@ h5 {
     text-decoration: none;
 }
 
+.eggs form {
+    @include h3;
+    position: absolute;
+    float: right;
+    top: 45px;
+    right: 240px;
+    width: 150px;
+}
+
+.eggs input{
+    background-color: white;
+    font-size: 18px;
+}
+
 //---------------------------------
 
 .garlic {
@@ -172,6 +186,20 @@ h5 {
 
 .garlic a {
     text-decoration: none;
+}
+
+.garlic form {
+    @include h3;
+    position: absolute;
+    float: right;
+    top: 120px;
+    right: 240px;
+    width: 150px;
+}
+
+.garlic input{
+    background-color: white;
+    font-size: 18px;
 }
 
 //---------------------------------
@@ -199,6 +227,20 @@ h5 {
     text-decoration: none;
 }
 
+.bacon form {
+    @include h3;
+    position: absolute;
+    float: right;
+    top: 210px;
+    right: 240px;
+    width: 150px;
+}
+
+.bacon input{
+    background-color: white;
+    font-size: 18px;
+}
+
 //---------------------------------
 
 .waffle {
@@ -222,6 +264,20 @@ h5 {
 
 .waffle a {
     text-decoration: none;
+}
+
+.waffle form {
+    @include h3;
+    position: absolute;
+    float: right;
+    top: 290px;
+    right: 240px;
+    width: 150px;
+}
+
+.waffle input{
+    background-color: white;
+    font-size: 18px;
 }
 
 //---------------------------------
@@ -249,6 +305,20 @@ h5 {
     text-decoration: none;
 }
 
+.piri form {
+    @include h3;
+    position: absolute;
+    float: right;
+    top: 365px;
+    right: 240px;
+    width: 150px;
+}
+
+.piri input{
+    background-color: white;
+    font-size: 18px;
+}
+
 //---------------------------------
 
 .berry {
@@ -272,6 +342,20 @@ h5 {
 
 .berry a {
     text-decoration: none;
+}
+
+.berry form {
+    @include h3;
+    position: absolute;
+    float: right;
+    top: 465px;
+    right: 240px;
+    width: 150px;
+}
+
+.berry input{
+    background-color: white;
+    font-size: 18px;
 }
 
 //---------------------------------
@@ -299,16 +383,17 @@ h5 {
     text-decoration: none;
 }
 
-.eggForm form{
+.spag form {
+    @include h3;
     position: absolute;
     float: right;
-    top: 56px;
+    top: 545px;
     right: 240px;
-    width: 200px;
-    background-color: purple;
-    @include h3;
+    width: 150px;
 }
 
-input{
-    background-color: green;
+.spag input{
+    background-color: white;
+    font-size: 18px;
 }
+
