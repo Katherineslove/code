@@ -21,12 +21,8 @@ h3 {
     @include h3;
 }
 
-h4 {
-    border: $borderSize solid $mainColour;
-} 
-
 h5 {
-    @include h5; 
+    @include h5;
 }
 
 #logo {
@@ -37,8 +33,6 @@ h5 {
     left: 38px;
     top: 50px;
 }
-
-//---------------------------------
 
 #nav{
     width: 1050px;
@@ -60,7 +54,7 @@ h5 {
     text-decoration: none;
     font-size: 45px;
     background-color: $basicColour;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: $tabRadius;
     border: 1px solid $mainColour;
 }
 
@@ -80,7 +74,7 @@ h5 {
     background-color: $basicColour;
 }
 
-.eggs {
+.cab {
     margin-left: 20px;
     width: 80%;
     height: 85px;
@@ -90,22 +84,16 @@ h5 {
     padding-left: 15px;
 }
 
-.eggsPrice {
+.cabPrice {
     position: absolute;
     width: 30px;
     height: 30px;
     background-color: $basicColour;
-    right: 10px;
-    top: 50px;
+    right: 20px;
+    top: 47px;
 }
 
-.eggs a{
-    text-decoration: none;
-}
-
-//---------------------------------
-
-.bene {
+.fish {
     margin-left: 20px;
     width: 80%;
     height: 85px;
@@ -115,7 +103,7 @@ h5 {
     padding-left: 15px;
 }
 
-.benePrice {
+.fishPrice {
     position: absolute;
     width: 30px;
     height: 30px;
@@ -124,9 +112,7 @@ h5 {
     top:160px;
 }
 
-//---------------------------------
-
-.flo {
+.steak {
     margin-left: 20px;
     width: 80%;
     height: 85px;
@@ -136,7 +122,7 @@ h5 {
     padding-left: 15px;
 }
 
-.floPrice {
+.steakPrice {
     position: absolute;
     width: 30px;
     height: 30px;
@@ -145,51 +131,50 @@ h5 {
     top:270px;
 }
 
-//---------------------------------
-
-.big {
+.salmon {
     margin-left: 20px;
     width: 80%;
-    height: 110px;
+    height: 50px;
     background-color: $basicColour;
     margin-top: 25px;
     padding-top: 5px;
     padding-left: 15px;
 }
 
-.bigPrice {
+.salmonPrice {
     position: absolute;
     width: 30px;
     height: 30px;
     background-color: $basicColour;
     right: 20px;
-    top: 390px;
+    top: 360px;
 }
 
-//---------------------------------
-
-.veggie {
+.bacon {
+    margin-top: 10px;
     margin-left: 20px;
     width: 80%;
-    height: 110px;
+    height: 90px;
     background-color: $basicColour;
     margin-top: 35px;
     padding-top: 5px;
     padding-left: 15px;
 }
 
-.veggiePrice {
+.baconPrice {
     position: absolute;
     width: 30px;
     height: 30px;
     background-color: $basicColour;
     right: 20px;
-    top: 530px;
+    top: 459px;
 }
 
-//---------------------------------
+.bacon a {
+    text-decoration: none;
+}
 
-.avo {
+.buttermilk {
     margin-left: 20px;
     width: 80%;
     height: 85px;
@@ -199,18 +184,16 @@ h5 {
     padding-left: 15px;
 }
 
-.avoPrice {
+.buttermilkPrice {
     position: absolute;
     width: 30px;
     height: 30px;
     background-color: $basicColour;
     right: 20px;
-    top: 655px;
+    top: 575px;
 }
 
-//---------------------------------
-
-.french {
+.pizza {
     margin-left: 20px;
     width: 80%;
     height: 85px;
@@ -220,13 +203,13 @@ h5 {
     padding-left: 15px;
 }
 
-.frenchPrice {
+.pizzaPrice {
     position: absolute;
     width: 30px;
     height: 30px;
     background-color: $basicColour;
     right: 20px;
-    top: 760px;
+    top: 692px;
 }
 
 //---------------------------------
@@ -266,8 +249,6 @@ h5 {
     background-color: $secondaryColour;
 }
 
-//---------------------------------
-
 .garlic {
     position: absolute;
     background-color: $basicColour;
@@ -293,8 +274,6 @@ h5 {
     text-decoration: none;
 }
 
-//---------------------------------
-
 .fries {
     position: absolute;
     background-color: $basicColour;
@@ -315,8 +294,6 @@ h5 {
     bottom: 13px;
     right: -105px;
 }
-
-//---------------------------------
 
 .wings {
     position: absolute;
@@ -339,8 +316,6 @@ h5 {
     right: -105px;
 }
 
-//---------------------------------
-
 .squid {
     position: absolute;
     background-color: $basicColour;
@@ -362,8 +337,6 @@ h5 {
     right: -105px;
 }
 
-//---------------------------------
-
 .chips {
     position: absolute;
     background-color: $basicColour;
@@ -384,8 +357,6 @@ h5 {
     bottom: 13px;
     right: -105px;
 }
-
-//---------------------------------
 
 .waffle {
     position: absolute;
@@ -412,8 +383,6 @@ h5 {
     text-decoration: none;
 }
 
-//---------------------------------
-
 .spicy {
     position: absolute;
     background-color: $basicColour;
@@ -434,8 +403,6 @@ h5 {
     bottom: 13px;
     right: -105px;
 }
-
-//---------------------------------
 
 .sweetcorn {
     position: absolute;
@@ -458,8 +425,6 @@ h5 {
     right: -105px;
 }
 
-//---------------------------------
-
 .beef {
     position: absolute;
     background-color: $basicColour;
@@ -481,5 +446,7 @@ h5 {
     right: -105px;
 }
 
-//---------------------------------
+
+
+
 

@@ -24,9 +24,6 @@ h3 {
   color: black;
   margin-top: 10px; }
 
-h4 {
-  border: 2px solid black; }
-
 h5 {
   color: black;
   background-color: white;
@@ -77,7 +74,7 @@ h5 {
   top: 100px;
   background-color: white; }
 
-.eggs {
+.burger {
   margin-left: 20px;
   width: 80%;
   height: 85px;
@@ -86,27 +83,24 @@ h5 {
   padding-top: 5px;
   padding-left: 15px; }
 
-.eggsPrice {
+.burgerPrice {
   position: absolute;
   width: 30px;
   height: 30px;
   background-color: white;
-  right: 10px;
-  top: 50px; }
+  right: 20px;
+  top: 47px; }
 
-.eggs a {
-  text-decoration: none; }
-
-.bene {
+.stir {
   margin-left: 20px;
-  width: 80%;
+  width: 82%;
   height: 85px;
   background-color: white;
   margin-top: 25px;
   padding-top: 5px;
   padding-left: 15px; }
 
-.benePrice {
+.stirPrice {
   position: absolute;
   width: 30px;
   height: 30px;
@@ -114,7 +108,7 @@ h5 {
   right: 20px;
   top: 160px; }
 
-.flo {
+.ribs {
   margin-left: 20px;
   width: 80%;
   height: 85px;
@@ -123,7 +117,7 @@ h5 {
   padding-top: 5px;
   padding-left: 15px; }
 
-.floPrice {
+.ribsPrice {
   position: absolute;
   width: 30px;
   height: 30px;
@@ -131,41 +125,42 @@ h5 {
   right: 20px;
   top: 270px; }
 
-.big {
+.pork {
   margin-left: 20px;
   width: 80%;
-  height: 110px;
+  height: 70px;
   background-color: white;
   margin-top: 25px;
   padding-top: 5px;
   padding-left: 15px; }
 
-.bigPrice {
+.porkPrice {
   position: absolute;
   width: 30px;
   height: 30px;
   background-color: white;
   right: 20px;
-  top: 390px; }
+  top: 370px; }
 
-.veggie {
+.fillet {
+  margin-top: 10px;
   margin-left: 20px;
   width: 80%;
-  height: 110px;
+  height: 90px;
   background-color: white;
   margin-top: 35px;
   padding-top: 5px;
   padding-left: 15px; }
 
-.veggiePrice {
+.filletPrice {
   position: absolute;
   width: 30px;
   height: 30px;
   background-color: white;
   right: 20px;
-  top: 530px; }
+  top: 479px; }
 
-.avo {
+.piri {
   margin-left: 20px;
   width: 80%;
   height: 85px;
@@ -174,15 +169,18 @@ h5 {
   padding-top: 5px;
   padding-left: 15px; }
 
-.avoPrice {
+.piriPrice {
   position: absolute;
   width: 30px;
   height: 30px;
   background-color: white;
   right: 20px;
-  top: 655px; }
+  top: 585px; }
 
-.french {
+.piri a {
+  text-decoration: none; }
+
+.salad {
   margin-left: 20px;
   width: 80%;
   height: 85px;
@@ -191,13 +189,13 @@ h5 {
   padding-top: 5px;
   padding-left: 15px; }
 
-.frenchPrice {
+.saladPrice {
   position: absolute;
   width: 30px;
   height: 30px;
   background-color: white;
   right: 20px;
-  top: 760px; }
+  top: 707px; }
 
 #snacks {
   width: 728px;
@@ -407,4 +405,4 @@ h5 {
   bottom: 13px;
   right: -105px; }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=dinner.css.map */

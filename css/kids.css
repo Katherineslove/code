@@ -24,9 +24,6 @@ h3 {
   color: black;
   margin-top: 10px; }
 
-h4 {
-  border: 2px solid black; }
-
 h5 {
   color: black;
   background-color: white;
@@ -77,110 +74,73 @@ h5 {
   top: 100px;
   background-color: white; }
 
-.eggs {
+.toast {
   margin-left: 20px;
   width: 80%;
-  height: 85px;
+  height: 45px;
   background-color: white;
   margin-top: 25px;
   padding-top: 5px;
   padding-left: 15px; }
 
-.eggsPrice {
+.toastPrice {
   position: absolute;
   width: 30px;
   height: 30px;
   background-color: white;
-  right: 10px;
-  top: 50px; }
+  right: 20px;
+  top: 27px; }
 
-.eggs a {
-  text-decoration: none; }
-
-.bene {
+.beans {
   margin-left: 20px;
   width: 80%;
-  height: 85px;
+  height: 45px;
   background-color: white;
   margin-top: 25px;
   padding-top: 5px;
   padding-left: 15px; }
 
-.benePrice {
+.beansPrice {
   position: absolute;
   width: 30px;
   height: 30px;
   background-color: white;
   right: 20px;
-  top: 160px; }
+  top: 96px; }
 
-.flo {
+.mash {
   margin-left: 20px;
   width: 80%;
-  height: 85px;
+  height: 45px;
   background-color: white;
   margin-top: 25px;
   padding-top: 5px;
   padding-left: 15px; }
 
-.floPrice {
+.mashPrice {
   position: absolute;
   width: 30px;
   height: 30px;
   background-color: white;
   right: 20px;
-  top: 270px; }
+  top: 169px; }
 
-.big {
+.mini {
   margin-left: 20px;
   width: 80%;
-  height: 110px;
+  height: 45px;
   background-color: white;
   margin-top: 25px;
   padding-top: 5px;
   padding-left: 15px; }
 
-.bigPrice {
+.miniPrice {
   position: absolute;
   width: 30px;
   height: 30px;
   background-color: white;
   right: 20px;
-  top: 390px; }
-
-.veggie {
-  margin-left: 20px;
-  width: 80%;
-  height: 110px;
-  background-color: white;
-  margin-top: 35px;
-  padding-top: 5px;
-  padding-left: 15px; }
-
-.veggiePrice {
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  background-color: white;
-  right: 20px;
-  top: 530px; }
-
-.avo {
-  margin-left: 20px;
-  width: 80%;
-  height: 85px;
-  background-color: white;
-  margin-top: 25px;
-  padding-top: 5px;
-  padding-left: 15px; }
-
-.avoPrice {
-  position: absolute;
-  width: 30px;
-  height: 30px;
-  background-color: white;
-  right: 20px;
-  top: 655px; }
+  top: 237px; }
 
 .french {
   margin-left: 20px;
@@ -197,7 +157,95 @@ h5 {
   height: 30px;
   background-color: white;
   right: 20px;
-  top: 760px; }
+  top: 323px; }
+
+.pizza {
+  margin-left: 20px;
+  width: 80%;
+  height: 45px;
+  background-color: white;
+  margin-top: 25px;
+  padding-top: 5px;
+  padding-left: 15px; }
+
+.pizzaPrice {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  right: 20px;
+  top: 420px; }
+
+.nuggets {
+  margin-left: 20px;
+  width: 80%;
+  height: 45px;
+  background-color: white;
+  margin-top: 25px;
+  padding-top: 5px;
+  padding-left: 15px; }
+
+.nuggetsPrice {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  right: 20px;
+  top: 490px; }
+
+.burger {
+  margin-left: 20px;
+  width: 80%;
+  height: 45px;
+  background-color: white;
+  margin-top: 25px;
+  padding-top: 5px;
+  padding-left: 15px; }
+
+.burgerPrice {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  right: 20px;
+  top: 560px; }
+
+.spag {
+  margin-left: 20px;
+  width: 80%;
+  height: 45px;
+  background-color: white;
+  margin-top: 25px;
+  padding-top: 5px;
+  padding-left: 15px; }
+
+.spagPrice {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  right: 20px;
+  top: 630px; }
+
+.spag a {
+  text-decoration: none; }
+
+.fish {
+  margin-left: 20px;
+  width: 80%;
+  height: 45px;
+  background-color: white;
+  margin-top: 25px;
+  padding-top: 5px;
+  padding-left: 15px; }
+
+.fishPrice {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  right: 20px;
+  top: 700px; }
 
 #snacks {
   width: 728px;
@@ -407,4 +455,4 @@ h5 {
   bottom: 13px;
   right: -105px; }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=kids.css.map */
