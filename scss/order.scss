@@ -21,10 +21,6 @@ h3 {
     @include h3;
 }
 
-h4 {
-    border: $borderSize solid $mainColour;
-} 
-
 h5 {
     @include h5; 
 }
@@ -163,6 +159,13 @@ h5 {
     font-size: 18px;
 }
 
+.delete {
+    position: absolute;
+    float: right;
+    right: 65px;
+    top: 45px;
+}
+
 //---------------------------------
 
 .garlic {
@@ -200,6 +203,13 @@ h5 {
 .garlic input{
     background-color: white;
     font-size: 18px;
+}
+
+.garlicDelete {
+    position: absolute;
+    float: right;
+    right: 65px;
+    top: 125px;
 }
 
 //---------------------------------
@@ -241,6 +251,13 @@ h5 {
     font-size: 18px;
 }
 
+.baconDelete {
+    position: absolute;
+    float: right;
+    right: 65px;
+    top: 215px;
+}
+
 //---------------------------------
 
 .waffle {
@@ -278,6 +295,13 @@ h5 {
 .waffle input{
     background-color: white;
     font-size: 18px;
+}
+
+.waffleDelete {
+    position: absolute;
+    float: right;
+    right: 65px;
+    top: 300px;
 }
 
 //---------------------------------
@@ -319,6 +343,13 @@ h5 {
     font-size: 18px;
 }
 
+.piriDelete {
+    position: absolute;
+    float: right;
+    right: 65px;
+    top: 370px;
+}
+
 //---------------------------------
 
 .berry {
@@ -356,6 +387,13 @@ h5 {
 .berry input{
     background-color: white;
     font-size: 18px;
+}
+
+.berryDelete {
+    position: absolute;
+    float: right;
+    right: 65px;
+    top: 475px;
 }
 
 //---------------------------------
@@ -397,3 +435,9 @@ h5 {
     font-size: 18px;
 }
 
+.spagDelete {
+    position: absolute;
+    float: right;
+    right: 65px;
+    top: 545px;
+}
