@@ -18,7 +18,7 @@ $border: 1px solid $mainColour;
 }
 
 @mixin h3 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: $mainFont;
     font-size: 20px;
     font-weight: 100px;
     background-color: white;

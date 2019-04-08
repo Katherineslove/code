@@ -17,7 +17,7 @@ h1 {
   font-weight: 100px; }
 
 h3 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 20px;
   font-weight: 100px;
   background-color: white;
@@ -352,5 +352,218 @@ h5 {
   background-color: white;
   bottom: 13px;
   right: -105px; }
+
+@media screen and (max-width: 1024px) {
+  .pageContainer {
+    height: 1300px; }
+
+  #logo {
+    left: 105px;
+    top: 5px; }
+
+  #nav {
+    width: 866px;
+    height: 97px;
+    float: left;
+    left: 77px;
+    top: 10px; }
+
+  #nav a {
+    width: 173.2px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 37px; }
+
+  #menu {
+    width: 864px;
+    float: left;
+    left: 78px;
+    top: 10px; }
+
+  #snacks {
+    width: 864px;
+    top: 6px;
+    left: 76px;
+    margin-bottom: 20px; }
+
+  #snacksTitle {
+    width: 866px; }
+
+  #snacksTitle a {
+    width: 866px;
+    padding: 14px 61px 16px;
+    font-size: 45px; } }
+@media screen and (max-width: 375px) {
+  h1 {
+    font-family: "Carrois Gothic", sans-serif;
+    font-size: 20px; }
+
+  h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px; }
+
+  h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px; }
+
+  .pageContainer {
+    background-color: black;
+    height: 647px; }
+
+  #logo {
+    width: 370px;
+    height: 205px;
+    left: 0px;
+    top: 5px; }
+
+  #logo img {
+    width: 379px;
+    height: 200px; }
+
+  #nav {
+    width: 374px;
+    height: 68px;
+    left: 0px;
+    top: 5px; }
+
+  #nav a {
+    width: 74.8px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px; }
+
+  #menu {
+    width: 375px;
+    height: 369px;
+    left: 0px;
+    top: 5px; }
+
+  #snacks {
+    width: 374px;
+    height: 562px;
+    top: 6px;
+    left: 0px;
+    margin-bottom: 20px; }
+
+  #snacksTitle {
+    width: 374px;
+    height: 68px; }
+
+  #snacksTitle a {
+    width: 374px;
+    height: 68px;
+    font-size: 28px; }
+
+  .donut {
+    margin-left: 8px;
+    margin-top: 15px; }
+
+  .donutPrice {
+    right: 20px;
+    top: 45px; }
+
+  .berry {
+    margin-left: 8px;
+    margin-top: 0; }
+
+  .berryPrice {
+    right: 20px;
+    top: 129px; }
+
+  .kiss {
+    margin-left: 8px;
+    margin-top: 20px; }
+
+  .kissPrice {
+    right: 20px;
+    top: 200px; }
+
+  .cheese {
+    margin-left: 8px;
+    margin-top: 9px; }
+
+  .cheesePrice {
+    top: 295px; }
+
+  .garlic {
+    top: 74px;
+    margin-left: 7px;
+    margin-top: 0px; }
+
+  .garlicPrice {
+    bottom: 18px;
+    right: -66px; }
+
+  .fries {
+    top: 110px;
+    margin-left: 7px;
+    margin-top: 15px; }
+
+  .friesPrice {
+    bottom: 13px;
+    right: -66px; }
+
+  .wings {
+    top: 160px;
+    margin-top: 15px;
+    margin-left: 7px; }
+
+  .wingsPrice {
+    bottom: 13px;
+    right: -57px; }
+
+  .squid {
+    top: 217px;
+    margin-top: 15px;
+    margin-left: 7px; }
+
+  .squidPrice {
+    bottom: 13px;
+    right: -57px; }
+
+  .chips {
+    top: 277px;
+    margin-top: 15px;
+    margin-left: 7px; }
+
+  .chipsPrice {
+    bottom: 20px;
+    right: -57px; }
+
+  .waffle {
+    top: 334px;
+    margin-left: 7px;
+    margin-top: 15px; }
+
+  .wafflePrice {
+    bottom: 20px;
+    right: -57px; }
+
+  .spicy {
+    top: 390px;
+    margin-left: 7px;
+    margin-top: 15px; }
+
+  .spicyPrice {
+    bottom: 20px;
+    right: -57px; }
+
+  .sweetcorn {
+    top: 448px;
+    margin-left: 7px;
+    margin-top: 15px; }
+
+  .sweetcornPrice {
+    bottom: 20px;
+    right: -57px; }
+
+  .beef {
+    top: 502px;
+    margin-left: 7px;
+    margin-top: 15px; }
+
+  .beefPrice {
+    bottom: 20px;
+    right: -57px; } }
 
 /*# sourceMappingURL=desserts.css.map */

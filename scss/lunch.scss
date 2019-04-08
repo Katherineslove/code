@@ -249,6 +249,8 @@ h5 {
     background-color: $secondaryColour;
 }
 
+//---------------------------------
+
 .garlic {
     position: absolute;
     background-color: $basicColour;
@@ -274,6 +276,8 @@ h5 {
     text-decoration: none;
 }
 
+//---------------------------------
+
 .fries {
     position: absolute;
     background-color: $basicColour;
@@ -294,6 +298,8 @@ h5 {
     bottom: 13px;
     right: -105px;
 }
+
+//---------------------------------
 
 .wings {
     position: absolute;
@@ -316,6 +322,8 @@ h5 {
     right: -105px;
 }
 
+//---------------------------------
+
 .squid {
     position: absolute;
     background-color: $basicColour;
@@ -337,6 +345,8 @@ h5 {
     right: -105px;
 }
 
+//---------------------------------
+
 .chips {
     position: absolute;
     background-color: $basicColour;
@@ -357,6 +367,8 @@ h5 {
     bottom: 13px;
     right: -105px;
 }
+
+//---------------------------------
 
 .waffle {
     position: absolute;
@@ -383,6 +395,8 @@ h5 {
     text-decoration: none;
 }
 
+//---------------------------------
+
 .spicy {
     position: absolute;
     background-color: $basicColour;
@@ -403,6 +417,8 @@ h5 {
     bottom: 13px;
     right: -105px;
 }
+
+//---------------------------------
 
 .sweetcorn {
     position: absolute;
@@ -425,6 +441,8 @@ h5 {
     right: -105px;
 }
 
+//---------------------------------
+
 .beef {
     position: absolute;
     background-color: $basicColour;
@@ -446,7 +464,54 @@ h5 {
     right: -105px;
 }
 
+//---------------------------------
 
+@media screen and (max-width: 1024px){
+    .pageContainer {
+        height: 1300px;
+    }
+    
+    #logo {
+        left: 105px;
+        top: 5px;
+    }
+    
+    #nav{
+        width: 866px;
+        height: 97px;
+        float: left;
+        left: 77px;
+        top: 10px;
+    }
 
-
-
+    #nav a {
+        width: 173.2px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 37px;
+    }
+    
+    #menu {
+        width: 864px;
+        float: left;
+        left: 78px;
+        top: 10px;
+    }
+    
+    #snacks{
+        width: 864px;
+        top: 6px;
+        left: 76px;
+        margin-bottom: 20px;
+    }
+    
+    #snacksTitle {
+        width: 866px;
+    }
+    
+    #snacksTitle a {
+        width: 866px;
+        padding: 14px 61px 16px;
+        font-size: 45px;
+    }
+}

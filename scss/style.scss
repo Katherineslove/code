@@ -483,3 +483,52 @@ h5 {
 
 //---------------------------------
 
+@media screen and (max-width: 1024px){
+    .pageContainer {
+        height: 1300px;
+    }
+    
+    #logo {
+        left: 105px;
+        top: 5px;
+    }
+    
+    #nav{
+        width: 866px;
+        height: 97px;
+        float: left;
+        left: 77px;
+        top: 10px;
+    }
+
+    #nav a {
+        width: 173.2px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 37px;
+    }
+    
+    #menu {
+        width: 864px;
+        float: left;
+        left: 78px;
+        top: 10px;
+    }
+    
+    #snacks{
+        width: 864px;
+        top: 6px;
+        left: 76px;
+        margin-bottom: 20px;
+    }
+    
+    #snacksTitle {
+        width: 866px;
+    }
+    
+    #snacksTitle a {
+        width: 866px;
+        padding: 14px 61px 16px;
+        font-size: 45px;
+    }
+}
