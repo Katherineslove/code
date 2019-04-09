@@ -431,7 +431,7 @@ button {
   #logo {
     width: 370px;
     height: 205px;
-    left: 0px;
+    left: -6px;
     top: 5px; }
 
   #logo img {
@@ -441,19 +441,19 @@ button {
   #nav {
     width: 374px;
     height: 68px;
-    left: 0px;
+    left: 1px;
     top: 5px; }
 
   #nav a {
-    width: 74.8px;
+    width: 74.7px;
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 18px; }
 
   #menu {
-    width: 375px;
+    width: 371px;
     height: 369px;
-    left: 0px;
+    left: 2px;
     top: 5px; }
 
   button {
@@ -462,18 +462,18 @@ button {
     left: 73px; }
 
   #snacks {
-    width: 372px;
+    width: 371px;
     height: 562px;
     top: 84px;
-    left: 0px;
-    margin-bottom: 20px; }
+    left: 2px;
+    margin-bottom: 2px; }
 
   #snacksTitle {
     width: 374px;
     height: 68px; }
 
   #snacksTitle a {
-    width: 374px;
+    width: 373px;
     height: 68px;
     font-size: 28px; }
 

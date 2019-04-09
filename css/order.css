@@ -581,11 +581,11 @@ h5 {
 @media screen and (max-width: 375px) {
   h1 {
     font-family: "Carrois Gothic", sans-serif;
-    font-size: 15px; }
+    font-size: 16px; }
 
   h3 {
     font-family: 'Open Sans', sans-serif;
-    font-size: 12px; }
+    font-size: 13px; }
 
   h5 {
     font-family: 'Open Sans', sans-serif;
@@ -622,7 +622,7 @@ h5 {
     display: none; }
 
   #menu {
-    height: 673px;
+    height: 644px;
     width: 374px;
     float: left;
     left: 0px;
@@ -643,28 +643,40 @@ h5 {
     padding: 14px 61px 16px;
     font-size: 45px; }
 
+  .eggs {
+    margin-left: 7px;
+    margin-top: 15px; }
+
   .eggsPrice {
-    left: 50%;
-    top: 50px; }
+    left: 47%;
+    top: 39px; }
 
   .eggs form {
-    font-size: 12px;
-    top: 50px;
-    right: 54px; }
+    font-size: 14px;
+    top: 35px;
+    right: 12px; }
 
   .eggs input {
     background-color: white;
     font-size: 18px;
     border: 1px solid black; }
 
+  .delete {
+    right: 18px;
+    top: 45px; }
+
+  .garlic {
+    margin-left: 7px;
+    margin-top: 15px; }
+
   .garlicPrice {
-    top: 115px;
-    left: 50%; }
+    top: 110px;
+    left: 47%; }
 
   .garlic form {
-    font-size: 18px;
-    top: 116px;
-    right: 154px; }
+    font-size: 14px;
+    top: 110px;
+    right: 12px; }
 
   .garlic input {
     background-color: white;
@@ -672,80 +684,120 @@ h5 {
     border: 1px solid black; }
 
   .garlicDelete {
-    position: absolute;
-    float: right;
-    right: 65px;
+    right: 18px;
     top: 125px; }
 
+  .bacon {
+    margin-left: 7px;
+    margin-top: 15px; }
+
   .baconPrice {
-    left: 50%;
-    top: 204px; }
+    left: 51%;
+    top: 169px; }
 
   .bacon form {
-    font-size: 18px;
-    top: 210px;
-    right: 154px; }
+    font-size: 14px;
+    top: 166px;
+    right: 7px; }
 
   .bacon input {
     background-color: white;
     font-size: 18px;
     border: 1px solid black; }
 
+  .baconDelete {
+    right: 18px;
+    top: 178px; }
+
+  .waffle {
+    margin-left: 7px;
+    margin-top: 0px; }
+
   .wafflePrice {
-    top: 280px;
+    top: 260px;
     left: 50%; }
 
   .waffle form {
-    font-size: 18px;
-    top: 290px;
-    right: 154px; }
+    font-size: 14px;
+    top: 257px;
+    right: 12px; }
 
   .waffle input {
     background-color: white;
     font-size: 18px;
     border: 1px solid black; }
 
+  .waffleDelete {
+    right: 18px;
+    top: 270px; }
+
+  .piri {
+    width: 190px;
+    margin-left: 7px;
+    margin-top: 15px; }
+
   .piriPrice {
     left: 50%;
-    top: 359px; }
+    top: 320px; }
 
   .piri form {
-    font-size: 18px;
-    top: 365px;
-    right: 154px; }
+    font-size: 14px;
+    top: 320px;
+    right: 12px; }
 
   .piri input {
     background-color: white;
     font-size: 18px;
     border: 1px solid black; }
 
+  .piriDelete {
+    right: 18px;
+    top: 330px; }
+
+  .berry {
+    width: 190px;
+    margin-left: 7px;
+    margin-top: 15px; }
+
   .berryPrice {
     left: 50%;
-    top: 461px; }
+    top: 418px; }
 
   .berry form {
-    font-size: 18px;
-    top: 465px;
-    right: 154px; }
+    font-size: 14px;
+    top: 418px;
+    right: 12px; }
 
   .berry input {
     background-color: white;
     font-size: 18px;
     border: 1px solid black; }
 
+  .berryDelete {
+    right: 18px;
+    top: 430px; }
+
+  .spag {
+    margin-left: 7px;
+    margin-top: 15px; }
+
   .spagPrice {
     left: 50%;
-    top: 541px; }
+    top: 521px; }
 
   .spag form {
-    font-size: 18px;
-    top: 545px;
-    right: 154px; }
+    font-size: 14px;
+    top: 521px;
+    right: 12px; }
 
   .spag input {
     background-color: white;
     font-size: 18px;
     border: 1px solid black; }
+
+  .spagDelete {
+    right: 18px;
+    top: 535px; }
 
   #footer {
     width: 374px;

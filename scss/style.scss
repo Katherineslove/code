@@ -559,6 +559,7 @@ button {
         font-size: 20px; }
 
       h3 {
+        margin-top: 0;
         font-family: 'Open Sans', sans-serif;
         font-size: 17px; }
 
@@ -569,13 +570,14 @@ button {
     //---------------------------------
 
       .pageContainer {
+          width: 374px;
         background-color: black;
         height: 647px; }
 
       #logo {
         width: 370px;
         height: 205px;
-        left: 0px;
+        left: -6px;
         top: 5px; }
 
       #logo img {
@@ -602,220 +604,89 @@ button {
     //---------------------------------
 
       #menu {
-        width: 373px;
-        height: 843px;
-        left: 0px;
+        width: 371px;
+        height: 735px;
+        left: 1px;
         top: 5px; }
 
-        .toast {
-            margin-left: 20px;
-            width: 80%;
-            height: 45px;
-            background-color: $basicColour;
-            margin-top: 25px;
-            padding-top: 5px;
-            padding-left: 15px;
+        .eggs {
+            margin-left: 7px;
+            margin-top: 15px;
         }
 
-        .toastPrice {
-            position: absolute;
-            width: 30px;
-            height: 30px;
-            background-color: $basicColour;
-            right: 20px;
-            top: 27px;
+        .eggsPrice {
+            top: 34px;
         }
 
-        .beans {
-            margin-left: 20px;
-            width: 80%;
-            height: 45px;
-            background-color: $basicColour;
-            margin-top: 25px;
-            padding-top: 5px;
-            padding-left: 15px;
+        .bene {
+            margin-left: 7px;
+            margin-top: 10px;
         }
 
-        .beansPrice {
-            position: absolute;
-            width: 30px;
-            height: 30px;
-            background-color: $basicColour;
-            right: 20px;
-            top: 96px;
+        .benePrice {
+            top: 129px;
         }
 
-        .mash {
-            margin-left: 20px;
-            width: 80%;
-            height: 45px;
-            background-color: $basicColour;
-            margin-top: 25px;
-            padding-top: 5px;
-            padding-left: 15px;
+        .flo {
+            margin-left: 7px;
+            margin-top: 0px;
         }
 
-        .mashPrice {
-            position: absolute;
-            width: 30px;
-            height: 30px;
-            background-color: $basicColour;
-            right: 20px;
-            top: 169px;
+        .floPrice {
+            top: 213px;
         }
 
-        .mini {
-            margin-left: 20px;
-            width: 80%;
-            height: 45px;
-            background-color: $basicColour;
-            margin-top: 25px;
-            padding-top: 5px;
-            padding-left: 15px;
+        .big {
+            margin-left: 7px;
+            margin-top: 0px;
         }
 
-        .miniPrice {
-            position: absolute;
-            width: 30px;
-            height: 30px;
-            background-color: $basicColour;
-            right: 20px;
-            top: 237px;
+        .bigPrice {
+            top: 298px;
+        }
+
+        .veggie {
+            margin-left: 7px;
+            margin-top: 35px;
+        }
+
+        .veggiePrice {
+            top: 480px;
+        }
+
+        .avo {
+            margin-left: 7px;
+            margin-top: 15px;
+        }
+
+        .avoPrice {
+            top: 569px;
         }
 
         .french {
-            margin-left: 20px;
-            width: 80%;
-            height: 85px;
-            background-color: $basicColour;
-            margin-top: 25px;
-            padding-top: 5px;
-            padding-left: 15px;
+            margin-left: 7px;
+            margin-top: 15px;
         }
 
         .frenchPrice {
-            position: absolute;
-            width: 30px;
-            height: 30px;
-            background-color: $basicColour;
-            right: 20px;
-            top: 323px;
-        }
-
-        .pizza {
-            margin-left: 20px;
-            width: 80%;
-            height: 45px;
-            background-color: $basicColour;
-            margin-top: 25px;
-            padding-top: 5px;
-            padding-left: 15px;
-        }
-
-        .pizzaPrice {
-            position: absolute;
-            width: 30px;
-            height: 30px;
-            background-color: $basicColour;
-            right: 20px;
-            top: 420px;
-        }
-
-        .nuggets {
-            margin-left: 20px;
-            width: 80%;
-            height: 45px;
-            background-color: $basicColour;
-            margin-top: 25px;
-            padding-top: 5px;
-            padding-left: 15px;
-        }
-
-        .nuggetsPrice {
-            position: absolute;
-            width: 30px;
-            height: 30px;
-            background-color: $basicColour;
-            right: 20px;
-            top: 490px;
-        }
-
-        .burger {
-            margin-left: 20px;
-            width: 80%;
-            height: 45px;
-            background-color: $basicColour;
-            margin-top: 25px;
-            padding-top: 5px;
-            padding-left: 15px;
-        }
-
-        .burgerPrice {
-            position: absolute;
-            width: 30px;
-            height: 30px;
-            background-color: $basicColour;
-            right: 20px;
-            top: 560px;
-        }
-
-        .spag {
-            margin-left: 20px;
-            width: 80%;
-            height: 45px;
-            background-color: $basicColour;
-            margin-top: 25px;
-            padding-top: 5px;
-            padding-left: 15px;
-        }
-
-        .spagPrice {
-            position: absolute;
-            width: 30px;
-            height: 30px;
-            background-color: $basicColour;
-            right: 20px;
-            top: 630px;
-        }
-
-        .spag a {
-            text-decoration: none;
-        }
-
-        .fish {
-            margin-left: 20px;
-            width: 80%;
-            height: 45px;
-            background-color: $basicColour;
-            margin-top: 25px;
-            padding-top: 5px;
-            padding-left: 15px;
-        }
-
-        .fishPrice {
-            position: absolute;
-            width: 30px;
-            height: 30px;
-            background-color: $basicColour;
-            right: 20px;
-            top: 700px;
+            top: 666px;
         }
     
     //---------------------------------
 
       #snacks {
-        width: 372px;
+        width: 371px;
         height: 562px;
         top: 84px;
-        left: 0px;
-        margin-bottom: 20px; }
+        left: 2px;
+        margin-bottom: 2px; }
 
       #snacksTitle {
         width: 374px;
         height: 68px; }
 
       #snacksTitle a {
-        width: 374px;
+        width: 373px;
         height: 68px;
         font-size: 28px; }
     

@@ -563,7 +563,7 @@ button {
       #logo {
         width: 370px;
         height: 205px;
-        left: 0px;
+        left: -6px;
         top: 5px; }
 
       #logo img {
@@ -573,11 +573,11 @@ button {
       #nav {
         width: 374px;
         height: 68px;
-        left: 0px;
+        left: 1px;
         top: 5px; }
 
       #nav a {
-        width: 74.8px;
+        width: 74.7px;
         padding-top: 20px;
         padding-bottom: 20px;
         font-size: 18px; }
@@ -585,9 +585,9 @@ button {
     //---------------------------------
 
       #menu {
-            width: 373px;
+            width: 371px;
             height: 682px;
-            left: 0px;
+            left: 2px;
             top: 5px; }
 
         .cab {
@@ -596,11 +596,6 @@ button {
         }
 
         .cabPrice {
-            position: absolute;
-            width: 30px;
-            height: 30px;
-            background-color: $basicColour;
-            right: 20px;
             top: 47px;
         }
 
@@ -610,12 +605,7 @@ button {
         }
 
         .fishPrice {
-            position: absolute;
-            width: 30px;
-            height: 30px;
-            background-color: $basicColour;
-            right: 20px;
-            top:160px;
+            top:125px;
         }
 
         .steak {
@@ -624,12 +614,7 @@ button {
         }
 
         .steakPrice {
-            position: absolute;
-            width: 30px;
-            height: 30px;
-            background-color: $basicColour;
-            right: 20px;
-            top:270px;
+            top: 225px;
         }
 
         .salmon {
@@ -638,12 +623,7 @@ button {
         }
 
         .salmonPrice {
-            position: absolute;
-            width: 30px;
-            height: 30px;
-            background-color: $basicColour;
-            right: 20px;
-            top: 360px;
+            top: 300px;
         }
 
         .bacon {
@@ -652,12 +632,7 @@ button {
         }
 
         .baconPrice {
-            position: absolute;
-            width: 30px;
-            height: 30px;
-            background-color: $basicColour;
-            right: 20px;
-            top: 459px;
+            top: 388px;
         }
 
         .buttermilk {
@@ -666,12 +641,7 @@ button {
         }
 
         .buttermilkPrice {
-            position: absolute;
-            width: 30px;
-            height: 30px;
-            background-color: $basicColour;
-            right: 20px;
-            top: 575px;
+            top: 515px;
         }
 
         .pizza {
@@ -680,29 +650,24 @@ button {
         }
 
         .pizzaPrice {
-            position: absolute;
-            width: 30px;
-            height: 30px;
-            background-color: $basicColour;
-            right: 20px;
-            top: 692px;
+            top: 618px;
         }
         
     //---------------------------------
 
        #snacks {
-        width: 372px;
+        width: 371px;
         height: 562px;
         top: 84px;
-        left: 0px;
-        margin-bottom: 20px; }
+        left: 2px;
+        margin-bottom: 2px; }
 
       #snacksTitle {
         width: 374px;
         height: 68px; }
 
       #snacksTitle a {
-        width: 374px;
+        width: 373px;
         height: 68px;
         font-size: 28px; }
 
@@ -818,3 +783,8 @@ button {
         bottom: 20px;
         right: -57px; } 
 }
+
+
+
+
+

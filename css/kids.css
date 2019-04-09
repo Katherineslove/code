@@ -493,6 +493,20 @@ button {
     left: 78px;
     top: 10px; }
 
+  .mini {
+    margin-left: 20px;
+    margin-top: 14px; }
+
+  .miniPrice {
+    top: 237px; }
+
+  .french {
+    margin-left: 20px;
+    margin-top: 50px; }
+
+  .frenchPrice {
+    top: 323px; }
+
   button {
     border: 2px dashed black;
     padding: 6px 6px 6px 6px;
@@ -533,7 +547,7 @@ button {
   #logo {
     width: 370px;
     height: 205px;
-    left: 0px;
+    left: -6px;
     top: 5px; }
 
   #logo img {
@@ -543,11 +557,11 @@ button {
   #nav {
     width: 374px;
     height: 68px;
-    left: 0px;
+    left: 1px;
     top: 5px; }
 
   #nav a {
-    width: 74.8px;
+    width: 74.7px;
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 18px; }
@@ -558,197 +572,94 @@ button {
     left: 73px; }
 
   #menu {
-    width: 373px;
-    height: 744px;
-    left: 0px;
+    width: 371px;
+    height: 651px;
+    left: 2px;
     top: 5px; }
 
   .toast {
-    margin-left: 20px;
-    width: 80%;
-    height: 45px;
-    background-color: white;
-    margin-top: 25px;
-    padding-top: 5px;
-    padding-left: 15px; }
+    margin-left: 7px;
+    margin-top: 15px; }
 
   .toastPrice {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    background-color: white;
-    right: 20px;
-    top: 27px; }
+    top: 14px; }
 
   .beans {
-    margin-left: 20px;
-    width: 80%;
-    height: 45px;
-    background-color: white;
-    margin-top: 25px;
-    padding-top: 5px;
-    padding-left: 15px; }
+    margin-left: 7px;
+    margin-top: 15px; }
 
   .beansPrice {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    background-color: white;
-    right: 20px;
-    top: 96px; }
+    top: 73px; }
 
   .mash {
-    margin-left: 20px;
-    width: 80%;
-    height: 45px;
-    background-color: white;
-    margin-top: 25px;
-    padding-top: 5px;
-    padding-left: 15px; }
+    margin-left: 7px;
+    margin-top: 15px; }
 
   .mashPrice {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    background-color: white;
-    right: 20px;
-    top: 169px; }
+    top: 130px; }
 
   .mini {
-    margin-left: 20px;
-    width: 80%;
-    height: 45px;
-    background-color: white;
-    margin-top: 25px;
-    padding-top: 5px;
-    padding-left: 15px; }
+    margin-left: 7px;
+    margin-top: 15px; }
 
   .miniPrice {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    background-color: white;
-    right: 20px;
-    top: 237px; }
+    top: 214px; }
 
   .french {
-    margin-left: 20px;
-    width: 80%;
-    height: 85px;
-    background-color: white;
-    margin-top: 25px;
-    padding-top: 5px;
-    padding-left: 15px; }
+    margin-left: 7px;
+    margin-top: 26px; }
 
   .frenchPrice {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    background-color: white;
-    right: 20px;
-    top: 323px; }
+    top: 308px; }
 
   .pizza {
-    margin-left: 20px;
-    width: 80%;
-    height: 45px;
-    background-color: white;
-    margin-top: 25px;
-    padding-top: 5px;
-    padding-left: 15px; }
+    margin-left: 7px;
+    margin-top: 15px; }
 
   .pizzaPrice {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    background-color: white;
-    right: 20px;
-    top: 420px; }
+    top: 367px; }
 
   .nuggets {
-    margin-left: 20px;
-    width: 80%;
-    height: 45px;
-    background-color: white;
-    margin-top: 25px;
-    padding-top: 5px;
-    padding-left: 15px; }
+    margin-left: 7px;
+    margin-top: 15px; }
 
   .nuggetsPrice {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    background-color: white;
-    right: 20px;
-    top: 490px; }
+    top: 425px; }
 
   .burger {
-    margin-left: 20px;
-    width: 80%;
-    height: 45px;
-    background-color: white;
-    margin-top: 25px;
-    padding-top: 5px;
-    padding-left: 15px; }
+    margin-left: 7px;
+    margin-top: 15px; }
 
   .burgerPrice {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    background-color: white;
-    right: 20px;
-    top: 560px; }
+    top: 484px; }
 
   .spag {
-    margin-left: 20px;
-    width: 80%;
-    height: 45px;
-    background-color: white;
-    margin-top: 25px;
-    padding-top: 5px;
-    padding-left: 15px; }
+    margin-left: 7px;
+    margin-top: 15px; }
 
   .spagPrice {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    background-color: white;
-    right: 20px;
-    top: 630px; }
-
-  .spag a {
-    text-decoration: none; }
+    top: 545px; }
 
   .fish {
-    margin-left: 20px;
-    width: 80%;
-    height: 45px;
-    background-color: white;
-    margin-top: 25px;
-    padding-top: 5px;
-    padding-left: 15px; }
+    margin-left: 7px;
+    margin-top: 15px; }
 
   .fishPrice {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    background-color: white;
-    right: 20px;
-    top: 700px; }
+    top: 602px; }
 
   #snacks {
-    width: 372px;
+    width: 371px;
     height: 562px;
     top: 84px;
-    left: 0px;
-    margin-bottom: 20px; }
+    left: 2px;
+    margin-bottom: 2px; }
 
   #snacksTitle {
     width: 374px;
     height: 68px; }
 
   #snacksTitle a {
-    width: 374px;
+    width: 373px;
     height: 68px;
     font-size: 28px; }
 
