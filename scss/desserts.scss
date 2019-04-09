@@ -64,7 +64,7 @@ h5 {
 
 #menu {
     width: 1045px;
-    height: 850px;
+    height: 950px;
     position: relative;
     float: right;
     right: 33px;
@@ -153,10 +153,9 @@ h5 {
 }
 
 //---------------------------------
-
-#snacks{
+ #snacks{
     width: 728px;
-    height: 650px;
+    height: 750px;
     position: relative;
     float: left;
     left: 53px;
@@ -187,6 +186,17 @@ h5 {
 
 #snacksTitle a.active {
     background-color: $secondaryColour;
+}
+
+button {
+    border: 2px dashed $mainColour;
+    padding: 4px 4px 4px 4px;
+    position: relative;
+    top: 650px;
+    float: left;
+    left: 215px;
+    font: 40px $navFont;
+    background-color: white;
 }
 
 //---------------------------------
@@ -432,15 +442,24 @@ h5 {
     }
     
     #menu {
+        height: 450px;
         width: 864px;
         float: left;
         left: 78px;
         top: 10px;
     }
     
+    button {
+        border: 2px dashed $mainColour;
+        padding: 6px 6px 6px 6px;
+        top: -100px;
+        left: 293px;
+    }
+    
     #snacks{
         width: 864px;
-        top: 6px;
+        height: 658px;
+        bottom: 290px;
         left: 76px;
         margin-bottom: 20px;
     }
@@ -510,13 +529,17 @@ h5 {
         top: 5px;
     }
     
-    #snacks{
-        width: 374px;
+    button {
+        font-size: 28px;
+        top: -67px;
+        left: 73px;}
+    
+    #snacks {
+        width: 372px;
         height: 562px;
-        top: 6px;
+        top: 84px;
         left: 0px;
-        margin-bottom: 20px;
-    }
+        margin-bottom: 20px; }
     
     #snacksTitle {
         width: 374px;

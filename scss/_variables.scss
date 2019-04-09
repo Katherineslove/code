@@ -34,3 +34,11 @@ $border: 1px solid $mainColour;
     font-weight: 100px;
     margin-top: 10px; 
 }
+
+@mixin h6 {
+    color: $mainColour;
+    background-color: white;
+    font-family: $mainFont;
+    font-size: 25px;
+    font-weight: 100px;
+}
