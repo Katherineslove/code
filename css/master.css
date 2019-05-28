@@ -1,0 +1,231 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: black; }
+
+.pageContainer {
+  max-width: 100%;
+  height: 1100px;
+  margin: 0 auto; }
+
+h1 {
+color: black;
+background-color: white;
+font-family: "Carrois Gothic", sans-serif;
+font-size: 30px;
+font-weight: 100px; }
+
+h3 {
+font-family: "Open Sans", sans-serif;
+font-size: 20px;
+font-weight: 100px;
+background-color: white;
+color: black;
+margin-top: 10px; }
+
+h5 {
+color: black;
+background-color: white;
+font-family: "Open Sans", sans-serif;
+font-size: 25px;
+font-weight: 100px;
+margin-top: 10px; }
+
+#logo {
+  width: 730px;
+  height: 330px;
+  position: relative;
+  float: left;
+  left: 38px;
+  top: 50px; }
+
+#nav {
+  width: 1050px;
+  height: 100px;
+  position: relative;
+  float: right;
+  right: 30px;
+  top: 100px; }
+
+#nav a {
+  text-align: center;
+  width: 209.6px;
+  font-family: "Oswald", sans-serif;
+  float: left;
+  color: black;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  font-size: 45px;
+  background-color: white;
+  border-radius: 10px 10px 0px 0px;
+  border: 1px solid black; }
+
+#nav a.active {
+  background-color: #c8c8c8; }
+
+#menu {
+  width: 1045px;
+  height: 950px;
+  position: relative;
+  float: right;
+  right: 33px;
+  top: 100px;
+  background-color: white; }
+
+#snacks {
+  width: 728px;
+  height: 750px;
+  position: relative;
+  float: left;
+  left: 53px;
+  bottom: 699px;
+  background-color: white; }
+
+#snacksTitle {
+  width: 740px;
+  height: 100px;
+  position: absolute;
+  left: -1px; }
+
+#snacksTitle a {
+  width: 730px;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  float: left;
+  color: black;
+  padding: 14px 61px 16px;
+  text-decoration: none;
+  font-size: 45px;
+  background-color: white;
+  border-radius: 10px 10px 0px 0px;
+  border: 1px solid black; }
+
+#snacksTitle a.active {
+  background-color: #c8c8c8; }
+
+button {
+  border: 2px dashed black;
+  padding: 4px 4px 4px 4px;
+  position: relative;
+  top: 650px;
+  float: left;
+  left: 215px;
+  font: 40px "Oswald", sans-serif;
+  background-color: white; }
+
+@media screen and (max-width: 1024px) {
+.pageContainer {
+  height: 1300px; }
+
+#logo {
+  left: 105px;
+  top: 5px; }
+
+#nav {
+  width: 866px;
+  height: 97px;
+  float: left;
+  left: 77px;
+  top: 10px; }
+
+#nav a {
+  width: 173.2px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 37px; }
+
+#menu {
+  height: 770px;
+  width: 864px;
+  float: left;
+  left: 78px;
+  top: 10px; }
+
+button {
+  border: 2px dashed black;
+  padding: 6px 6px 6px 6px;
+  top: -100px;
+  left: 293px; }
+
+#snacks {
+  width: 864px;
+  height: 658px;
+  top: 32px;
+  left: 76px;
+  margin-bottom: 20px; }
+
+#snacksTitle {
+  width: 866px; }
+
+#snacksTitle a {
+  width: 866px;
+  padding: 14px 61px 16px;
+  font-size: 45px; }
+
+@media screen and (max-width: 375px) {
+h1 {
+  font-family: "Carrois Gothic", sans-serif;
+  font-size: 20px; }
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px; }
+
+h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px; }
+
+.pageContainer {
+  background-color: black;
+  height: 647px; }
+
+#logo {
+  width: 370px;
+  height: 205px;
+  left: -6px;
+  top: 5px; }
+
+#logo img {
+  width: 379px;
+  height: 200px; }
+
+#nav {
+  width: 374px;
+  height: 68px;
+  left: 1px;
+  top: 5px; }
+
+#nav a {
+  width: 74.7px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 18px; }
+
+button {
+  font-size: 28px;
+  top: -67px;
+  left: 73px; }
+
+#menu {
+  width: 371px;
+  height: 804px;
+  left: 2px;
+  top: 5px; }
+
+#snacks {
+  width: 371px;
+  height: 562px;
+  top: 84px;
+  left: 2px;
+  margin-bottom: 2px; }
+
+#snacksTitle {
+  width: 374px;
+  height: 68px; }
+
+#snacksTitle a {
+  width: 373px;
+  height: 68px;
+  font-size: 28px; }
